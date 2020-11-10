@@ -10,8 +10,8 @@ My name is Jesper Stark Waxell and I am a student at BTH, where I'm studying web
 
 ![me](%assets_url%/img/me.jpg)
 
-The source for this page is in `content/index.md`.
+<!-- The source for this page is in `content/index.md`.
 
 This is a sample home page written in markdown with some frontmatter defined.
 
-The pages make up a Anax site for demonstration purpose, it is something to start from.
+The pages make up a Anax site for demonstration purpose, it is something to start from. -->
