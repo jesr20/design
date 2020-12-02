@@ -1,4 +1,5 @@
 $standard-font: 'Oswald', sans-serif;
+$box-height: 13em;
 @import '../../node_modules/normalize.css/normalize';
 @import '../../shared/fontawesome/scss/fontawesome';
 $fa-font-path: '../../shared/fontawesome/webfonts';
@@ -12,8 +13,6 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 * {
     font-family: $standard-font;
 }
-// 
-// h1 h2 h3 h4 h5 h6 {
-//     font-family: $standard-font;
-//     // font-family: 'Roboto', sans-serif;
-// }
+
+
+@import 'report'

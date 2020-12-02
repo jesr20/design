@@ -14,4 +14,8 @@ Social:
     - title: Link to Twitter profile.
       url: https://twitter.com/jesperstark
       icon: fab fa-twitter
+Kmom-box:
+    - title: Link to kmom-page.
+      url: http://www.student.bth.se/~jesr20/dbwebb-kurser/design/me/portfolio/report/
+      icon: fas fa-chevron-circle-right
 ---
