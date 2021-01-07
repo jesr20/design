@@ -6,8 +6,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "stylelint \"**/*.scss\"",
-    "style": "sass stark/scss/style.scss stark/css/style.css --no-source-map",
-    "style-min": "sass stark/scss/style.scss stark/css/style.min.css --no-source-map --style compressed"
+    "watch": "sass stark/scss/style.scss:stark/css/style.css stark/scss/style-dark.scss:stark/css/style-dark.css --no-source-map --watch",
+    "watch-min": "sass stark/scss/style.scss:stark/css/style.min.css stark/scss/style-dark.scss:stark/css/style-dark.min.css --no-source-map --watch --style compressed",
+    "style": "npm run style-light && npm run style-dark",
+    "style-min": "npm run style-light-min && npm run style-dark-min",
+    "style-dark": "sass stark/scss/style-dark.scss stark/css/style-dark.css --no-source-map",
+    "style-dark-min": "sass stark/scss/style-dark.scss stark/css/style-dark.min.css --no-source-map --style compressed",
+    "style-light": "sass stark/scss/style.scss stark/css/style.css --no-source-map",
+    "style-light-min": "sass stark/scss/style.scss stark/css/style.min.css --no-source-map --style compressed"
   },
   "keywords": [],
   "author": "",

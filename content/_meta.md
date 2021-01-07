@@ -14,6 +14,12 @@ Social:
     - title: Link to Twitter profile.
       url: https://twitter.com/jesperstark
       icon: fab fa-twitter
+    - title: Dark Mode
+      url: ?action=theme
+      icon: fas fa-moon
+    - title: Destroy Session
+      url: ?action=session_destroy
+      icon: fas fa-trash-alt
 Kmom-box:
     - title: Link to kmom-page.
       url: http://www.student.bth.se/~jesr20/dbwebb-kurser/design/me/portfolio/report/

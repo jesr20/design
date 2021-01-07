@@ -7176,3 +7176,46 @@ h1 {
   list-style: none;
   margin-bottom: 0.2em;
 }
+
+.body, .main, .site-footer, .site-header {
+  background: linear-gradient(to bottom right, #0F0F0F, #030303);
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  color: #8A8686;
+  text-decoration-color: #8A8686;
+}
+
+.flash-img {
+  border-top: 0.3em #8A8686;
+  border-bottom: 0.3em #8A8686;
+}
+
+.landingpage > div:not(.kmom10) {
+  background-color: #8A8686;
+}
+
+.landingpage > div > h4 {
+  color: black;
+  background-color: #525050;
+}
+
+.landingpage > div > p {
+  color: black;
+}
+
+i, a {
+  color: #FDFDFD;
+}
+
+.side-bar li a {
+  background: black;
+}
+
+.kmom10 {
+  background-color: #8A8686;
+}
+
+.kmom10 p {
+  color: black;
+}
